@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using test_intellicode;
+
+var testing = new Testing();
+
+Console.WriteLine(testing.Test());
